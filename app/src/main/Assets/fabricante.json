@@ -1,0 +1,22 @@
+{
+  "fabricantes": [
+    {
+      "fabricante": "Honda",
+      "modelo": ["Civic","Accord","Crv","Fit"],
+      "año": ["2000", "2001", "2002", "2003", "2004"],
+      "ediciones": ["Ex", "Sport", "TypeR", "Lx", "N/a"]
+    },
+    {
+      "fabricante": "Volkswagen",
+      "modelo": ["Golf","Jetta","Bento","Gol"],
+      "año": ["2000", "2001", "2002", "2003", "2004"],
+      "ediciones": ["Ex", "Sport", "TypeR", "Lx", "N/a"]
+    },
+    {
+      "fabricante": "Toyota",
+      "modelo": ["Civic","Accord","Crv","Fit"],
+      "año": ["2000", "2001", "2002", "2003", "2004"],
+      "ediciones": ["Ex", "Sport", "TypeR", "Lx", "N/a"]
+    }
+  ]
+}

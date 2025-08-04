@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "431724775229",
+    "project_id": "tunnig-1f560",
+    "storage_bucket": "tunnig-1f560.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431724775229:android:62e170c9542360542ea754",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZEzNXz8v3_YVaz_NAYtssFcCKcYjFyGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431724775229:android:43a6d19d6e060caa2ea754",
+        "android_client_info": {
+          "package_name": "com.example.tunnig"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZEzNXz8v3_YVaz_NAYtssFcCKcYjFyGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
