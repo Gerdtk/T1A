@@ -28,6 +28,7 @@
         android:layout_width="264dp"
         android:layout_height="68dp"
         android:text="Ingresar"
+        android:backgroundTint="#8EDF5F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

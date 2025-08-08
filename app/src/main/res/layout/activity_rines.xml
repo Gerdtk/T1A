@@ -6,6 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Rines">
+
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="299dp"
@@ -16,8 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.343" />
-
+        app:layout_constraintVertical_bias="0.149" />
 
     <Button
         android:id="@+id/regresar"
@@ -31,5 +32,74 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.045" />
+
+
+    <ImageView
+        android:id="@+id/img00"
+        android:layout_width="327dp"
+        android:layout_height="214dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
+
+    <RadioGroup
+        android:id="@+id/grBtn"
+        android:layout_width="316dp"
+        android:layout_height="163dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715">
+
+        <RadioButton
+            android:id="@+id/rbtB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bueno" />
+
+        <RadioButton
+            android:id="@+id/rbtR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regular" />
+
+        <RadioButton
+            android:id="@+id/rbtM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malo" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnEl"
+        android:layout_width="239dp"
+        android:layout_height="58dp"
+        android:background="#8EDF5F"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+    <Button
+        android:id="@+id/btnMo"
+        android:layout_width="239dp"
+        android:layout_height="58dp"
+        android:background="#8EDF5F"
+        android:text="Modificar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
